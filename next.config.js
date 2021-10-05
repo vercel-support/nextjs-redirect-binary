@@ -1,12 +1,11 @@
 module.exports = {
   reactStrictMode: true,
-  async redirects() {
+  async rewrites() {
     return [
       {
-        source: '/mail/image.gif',
-        destination: 'https://checkout.mammut/mail/image.gif',
-        permanent: true,
+        source: '/mail/image.jpg',
+        destination: 'https://nextjs-binary-redirect.vercel-support.app/roman-mager-5mZ_M06Fc9g-unsplash.jpg',
       },
     ]
-  },
+  },  
 }
